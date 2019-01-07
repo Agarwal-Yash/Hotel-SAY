@@ -1,0 +1,15 @@
+h1{
+	font-size: 80;
+
+}
+
+body{
+	
+	height: 50;
+	width: 50;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right top;
+	text-align: center;
+}
