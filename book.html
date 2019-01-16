@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lotus Hotel</title>
+	<link rel="stylesheet" type="text/css" href="css/book.css">
+</head>
+<header>
+		<div class ="main">
+			<div class ="logo">
+				<img src="imgs/logotest.png">
+			</div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li class ="active"><a href="book.html">Book a Room</a></li>
+				<li><a href="room.html">Room Service</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			<div class="title">
+				<h1>LOTUS HOTEL</h1>
+			</div>
+		</div>
+</header>
+<body>
+	<div class="roomone">
+		<br><br>
+		<b><h2>Luxury Suite 2 Queen Bed</h2></b><br>
+		<img src="imgs/room1.png" style="float:right; width: 35%; height:30%; margin: 30px; class="pics"/>
+		<br>
+		<li>Two beds</li>
+		<br>
+		<li>Two bathrooms with Sauna</li>
+		<br>
+		<li>Stacked Freezer</li>
+		<br>
+		<h3>Only for $129</h3>
+		<br>
+		<button onclick="document.getElementById('popup').style.display='block'" class = "purchase">Book Room!</button>
+		<div id = "popup">
+			Sorry, this room is currently unavailable. Please try again later!
+			<button onclick="document.getElementById('popup').style.display='none'">Hide</button>
+		</div>
+	<div class="roomtwo">
+		<br><br>
+		<b><h2>Superior Room 2 Queen Bed</h2></b><br>
+		<img src="imgs/room2.png" style="float:right; width: 35%; height:40%; margin: 30px; class="pics"/>
+		<br>
+		<li>Two beds</li>
+		<br>
+		<li>Two bathrooms with bathtub</li>
+		<br>
+		<li>Exclusive City View</li>
+		<br>
+		<h3>Only for $135</h3>
+		<br>
+		<button onclick="document.getElementById('popup2').style.display='block'" class = "purchase">Book Room!</button>
+		<div id = "popup2">
+			Sorry, this room is currently unavailable. Please try again later!
+			<button onclick="document.getElementById('popup2').style.display='none'">Hide</button>
+		</div>
+	<div class="roomthree">
+		<br><br>
+		<b><h2>Luxury Room 1 King Bed</h2></b><br>
+		<img src="imgs/room3.png" style="float:right; width: 35%; height:40%; margin: 30px; class="pics"/>
+		<br>
+		<li>One King Sized Bed</li>
+		<br>
+		<li>One Bathroom</li>
+		<br>
+		<li>Exclusive City View</li>
+		<br>
+		<h3>Only for $108</h3>
+		<br>
+		<button onclick="document.getElementById('popup3').style.display='block'" class = "purchase">Book Room!</button>
+		<div id = "popup3">
+			Sorry, this room is currently unavailable. Please try again later!
+			<button onclick="document.getElementById('popup3').style.display='none'">Hide</button>
+		</div>
+	<div class="roomfour">
+		<br><br>
+		<b><h2>Penthouse Suite</h2></b><br>
+		<img src="imgs/room4.png" style="float:right; width: 35%; height:40%; margin: 30px; class="pics"/>
+		<br>
+		<li>One King Sized Bed</li>
+		<br>
+		<li>Heated Wooden Flooring</li>
+		<br>
+		<li>Great Eccentric Layout</li>
+		<br>
+		<h3>Only for $149</h3>
+		<br>
+		<button onclick="document.getElementById('popup4').style.display='block'" class = "purchase">Book Room!</button>
+		<div id = "popup4">
+			Sorry, this room is currently unavailable. Please try again later!
+			<button onclick="document.getElementById('popup4').style.display='none'">Hide</button>
+		</div>
+</body>
+</html>

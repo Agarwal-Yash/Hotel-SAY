@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lotus Hotel</title>
+	<link rel="stylesheet" type="text/css" href="css/room.css">
+</head>
+<header>
+		<div class ="main">
+			<div class ="logo">
+				<img src="imgs/logotest.png">
+			</div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="book.html">Book a Room</a></li>
+				<li class ="active"><a href="room.html">Room Service</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			<div class="title">
+				<h1>LOTUS HOTEL</h1>
+			</div>
+		</div>
+</header>
+<body>
+	<div class="packageone">
+		<br><br>
+		<img src="imgs/amenities.jpg" style="float:right; width: 35%; height:35%; margin: 30px; class="pics"/>
+		<b><h2>Amenities Package</h2></b><br>
+		<br>
+		<li>Includes out of room amenities such as Gym and Pool Services.</li>
+		<br>
+		<li>Includes in room amenities such as TV, Paneled Heating etc.</li>
+		<br>
+		<li>Includes Discounted Prices for Local Attractions</li>
+		<br>
+		<h3>Only for $250</h3>
+		<br>
+		<button onclick="document.getElementById('popup').style.display='block'" class = "purchase">Pay Now!</button>
+		<div id = "popup">
+			Sorry, this service is currently unavailable. Please try again later!
+			<button onclick="document.getElementById('popup').style.display='none'">Hide</button>
+		</div>
+	<div class="packagetwo">
+		<br><br>
+		<img src="imgs/food.png" style="float:right; width: 35%; height:35%; margin: 30px; class="pics"/>
+		<b><h2>Food Package</h2></b><br>
+		<br>
+		<li>Includes Breakfast, Lunch and Dinner at the Hotel Dining Room</li>
+		<br>
+		<li>Two free meals at the Hotel Resteraunt</li>
+		<br>
+		<li>Custom Meals Prepared For You*</li>
+		<h6>*Orders must be entered by 9AM</h6>
+		<br>
+		<h3>Only for $325</h3>
+		<br>
+		<button onclick="document.getElementById('popup2').style.display='block'" class = "purchase">Pay Now!</button>
+		<div id = "popup2">
+			Sorry, this service is currently unavailable. Please try again later!
+			<button onclick="document.getElementById('popup2').style.display='none'">Hide</button>
+		</div>
+	<div class="packagethree">
+		<br><br>
+		<img src="imgs/restock.png" style="float:right; width: 30%; height:30%; margin: 30px; class="pics"/>
+		<b><h2>Restock Package</h2></b><br>
+		<br>
+		<li>All complimentary in room products will be upgraded to premium products.</li>
+		<br>
+		<li>The products will be restocked every day resulting in unlimited usage.</li>
+		<br>
+		<h3>Only for $125</h3>
+		<br>
+		<button onclick="document.getElementById('popup3').style.display='block'" class = "purchase">Pay Now!</button>
+		<div id = "popup3">
+			Sorry, this service is currently unavailable. Please try again later!
+			<button onclick="document.getElementById('popup3').style.display='none'">Hide</button>
+		</div>
+</body>
+</html>
