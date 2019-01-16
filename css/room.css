@@ -86,27 +86,65 @@ ul li.active a{
   height: 20%;
 }
 
-
-.text{
-  position: absolute;
+.packageone{
+	position: absolute;
   width: 100%;
   text-indent: 5%;
   color: #000;
   font-size: 20px;
   background-color: #fff;
-
-/*Content*/
-#content{
-  padding:70px;
-  margin-left: 60px;
-  line-height: 24px;
 }
 
-p{
-  margin-top:10px;
-  margin-bottom:10px;
-  text-align: left;
-  left: 0;
-  top: 40%;
+.packagetwo{
+	position: absolute;
+  width: 100%;
+  text-indent: 5%;
+  color: #000;
+  font-size: 20px;
+  background-color: #fff;
 }
 
+.packagethree{
+	position: absolute;
+  width: 100%;
+  text-indent: 5%;
+  color: #000;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.purchase{
+	border: 3px;
+  	background-color: mediumseagreen;
+  	padding: 20px 40px;
+  	margin-left: 5%;
+  	cursor: pointer;
+  	display: inline-block;
+}
+
+#popup{
+	display: none;
+	background: #efefef; 
+	border: 1px solid black; 
+	width: 56%; 
+	height: 5%; 
+	margin-left: 5%;
+}
+
+#popup2{
+	display: none;
+	background: #efefef; 
+	border: 1px solid black; 
+	width: 56%; 
+	height: 5%; 
+	margin-left: 5%;
+}
+
+#popup3{
+	display: none;
+	background: #efefef; 
+	border: 1px solid black; 
+	width: 56%; 
+	height: 5%; 
+	margin-left: 5%;
+}
